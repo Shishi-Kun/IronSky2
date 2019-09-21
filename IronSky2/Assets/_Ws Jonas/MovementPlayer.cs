@@ -43,37 +43,4 @@ public class MovementPlayer : MonoBehaviour {
         transform.Rotate(0, rotation, 0, Space.Self);
         rb.AddForce(transform.forward * (speed / 10), ForceMode.Impulse);
     }
-
-    /*void FixedUpdate () {
-        curRotation = 0;
-
-        if (Input.GetKey(KeyCode.UpArrow)) {
-            if (speed < 91) {
-                speed++;
-            }
-        } else if (Input.GetKey(KeyCode.DownArrow)) {
-            if (speed > -91) {
-                speed--;
-                speed--;
-            }
-        } else {
-            if (speed > 0) {
-                speed--;
-            } else if (speed < 0) {
-               speed++;
-            }
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-            curRotation = curRotation - 2;
-            rotation = rotation - 2;
-        } else if (Input.GetKey(KeyCode.RightArrow)) {
-            curRotation = curRotation + 2;
-            rotation = rotation + 2;
-        }        
-
-        transform.Rotate(0, curRotation, 0, Space.Self);
-        rotation = rotation % 360;
-        rb.AddForce((rotation % 90) / 20 * speed, 0, speed);
-    }*/
 }
