@@ -18,13 +18,7 @@ public class MovementPlayer : MonoBehaviour {
                 speed = speed - 4f;
             }
         } else {
-            for (int i = 0; i < 8; i++) {
-                if (speed > 0f) {
-                    speed--;
-                } else if (speed < 0f) {
-                    speed++;
-                }
-            }
+            speed = 0f;
         }
 
         if (speed == 0f) {
