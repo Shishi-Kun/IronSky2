@@ -2,12 +2,13 @@
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Transform player;
-    public Vector3 offset;
+    public GameObject target;
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.position + offset;
+        transform.position = target.transform.position + new Vector3(0f, 40f, -40f);
+        transform.rotation = target.transform.rotation;
+        transform.LookAt(target.transform);
     }
 }
