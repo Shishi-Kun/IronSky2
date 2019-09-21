@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 454a1a8d8d5c2db4099b917db2091199
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Back
+    100004: cont leg.L
+    100006: cont leg.L_end
+    100008: cont leg.R
+    100010: cont leg.R_end
+    100012: Foot.L
+    100014: Foot.L_end
+    100016: Foot.R
+    100018: Foot.R_end
+    100020: Leg.L Control
+    100022: Leg.R Control
+    100024: Low Leg.L
+    100026: Low Leg.L_end
+    100028: Low Leg.R
+    100030: Low Leg.R_end
+    100032: Lower Arm.L
+    100034: Lower Arm.L_end
+    100036: Lower Arm.R
+    100038: Lower Arm.R_end
+    100040: Lower Head
+    100042: Lower Head_end
+    100044: Neck
+    100046: T-Rex_Body
+    100048: //RootNode
+    100050: Tail.1
+    100052: Tail.2
+    100054: Tail.3
+    100056: Tail.3_end
+    100058: Upper Arm.L
+    100060: Upper Arm.R
+    100062: Upper Head
+    100064: Upper Head_end
+    100066: Upper Leg.L
+    100068: Upper Leg.L puoleTarget
+    100070: Upper Leg.L puoleTarget_end
+    100072: Upper Leg.R
+    100074: Upper Leg.R puoleTarget
+    100076: Upper Leg.R puoleTarget_end
+    400000: Armature
+    400002: Back
+    400004: cont leg.L
+    400006: cont leg.L_end
+    400008: cont leg.R
+    400010: cont leg.R_end
+    400012: Foot.L
+    400014: Foot.L_end
+    400016: Foot.R
+    400018: Foot.R_end
+    400020: Leg.L Control
+    400022: Leg.R Control
+    400024: Low Leg.L
+    400026: Low Leg.L_end
+    400028: Low Leg.R
+    400030: Low Leg.R_end
+    400032: Lower Arm.L
+    400034: Lower Arm.L_end
+    400036: Lower Arm.R
+    400038: Lower Arm.R_end
+    400040: Lower Head
+    400042: Lower Head_end
+    400044: Neck
+    400046: T-Rex_Body
+    400048: //RootNode
+    400050: Tail.1
+    400052: Tail.2
+    400054: Tail.3
+    400056: Tail.3_end
+    400058: Upper Arm.L
+    400060: Upper Arm.R
+    400062: Upper Head
+    400064: Upper Head_end
+    400066: Upper Leg.L
+    400068: Upper Leg.L puoleTarget
+    400070: Upper Leg.L puoleTarget_end
+    400072: Upper Leg.R
+    400074: Upper Leg.R puoleTarget
+    400076: Upper Leg.R puoleTarget_end
+    2100000: 1.001
+    2100002: 2.001
+    4300000: T-Rex_Body
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: T-Rex_Body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

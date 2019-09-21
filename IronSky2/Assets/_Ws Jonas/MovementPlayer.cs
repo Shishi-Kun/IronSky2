@@ -5,9 +5,15 @@ using System;
 
 public class MovementPlayer : MonoBehaviour {
     public Rigidbody rb;
+    public GameObject player;
+    public Animator animator;
     public float speed = 0f;
     public int rotation;
  
+    void Start() {
+        animator = GetComponent<Animator>();
+    }
+
     void FixedUpdate() {
         if (Input.GetKey(KeyCode.UpArrow)) {
             if (speed < 100) {
@@ -36,5 +42,7 @@ public class MovementPlayer : MonoBehaviour {
 
         transform.Rotate(0, rotation, 0, Space.Self);
         rb.AddForce(transform.forward * (speed / 10), ForceMode.Impulse);
+
+        animator.SetFloat("Speed", speed);
     }
 }
