@@ -7,14 +7,14 @@ public class MovementPlayer : MonoBehaviour {
     public Rigidbody rb;
     public GameObject player;
     public Animator animator;
+    public AudioSource bruellen, space;
+
     public float speed = 0f;
     public int rotation;
- 
-    public AudioSource bruellen, stampfen;
 
     void Start() {
         animator = GetComponent<Animator>();
-        stampfen.Play();
+        space.Play();
     }
 
     void FixedUpdate() {
@@ -50,9 +50,6 @@ public class MovementPlayer : MonoBehaviour {
         if (speed == 0f) {
             rb.velocity = new Vector3(0f, 0f, 0f);
             rb.angularVelocity = new Vector3(0f, 0f, 0f);
-            stampfen.volume = 0f;
-        } else {
-            stampfen.volume = 0.3f;
         }
 
         animator.SetFloat("Speed", speed);
