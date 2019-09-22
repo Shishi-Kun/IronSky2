@@ -34,13 +34,9 @@ public class MovementPlayer : MonoBehaviour {
 
         // Vorwärts/Rückwärts
         if (Input.GetKey(KeyCode.UpArrow)) {
-            if (speed < 10) {
-                speed++;
-            }
+            speed = 10f;
         } else if (Input.GetKey(KeyCode.DownArrow)) {
-            if (speed > -5) {
-                speed--;
-            }
+            speed = -5f;
         } else {
             speed = 0f;
         }
