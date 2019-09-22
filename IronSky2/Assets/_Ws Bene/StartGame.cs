@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class StartGame : MonoBehaviour
 {
+    public AudioSource audio;
+
     public void StartTheGame()
     {
-        Debug.Log("test");
-        //SceneManagement.LoadScene("Strecke_2");
-        //SceneManager.LoadScene("gameplay");
-                 Application.LoadLevel("Strecke_2");
-
-
+        audio.Play();
+        Application.LoadLevel("Strecke_2");
     }
 
 }
