@@ -14,7 +14,7 @@ public class ItemInteraction : MonoBehaviour
     void OnTriggerEnter(Collider other) 
     {
         Debug.Log("Power up picked up!");
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player") || other.CompareTag("Bullet"))
         {
             PickUp();
         }
